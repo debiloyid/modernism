@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modernism | Кошик замовлень</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="page-border"></div>
+
+    <header>
+        <div class="container header-flex">
+            <div class="brand-zone">
+                <a href="index.html" class="logo">modernism.</a>
+                <span class="sub-logo">книжковий артефакт & колекційні видання</span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">каталог</a></li>
+                    <li><a href="index.html#exclusives">ексклюзиви</a></li>
+                    <li><a href="index.html#about">про концепцію</a></li>
+                    <li><a href="cart.html" class="cart-link">кошик <span class="cart-count">(0)</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="cart-section">
+        <div class="container">
+            <div class="catalog-header">
+                <span class="section-num">00 /</span>
+                <h2>Обрані видання</h2>
+            </div>
+
+            <div class="cart-layout">
+                <div class="cart-items-container" id="cart-items">
+                    <p class="empty-cart-msg">Ваш кошик наразі порожній. Оберіть видання у каталозі.</p>
+                </div>
+
+                <aside class="cart-summary">
+                    <h3>Оформлення замовлення</h3>
+                    <div class="summary-row">
+                        <span>Кількість примірників:</span>
+                        <span id="total-qty">0</span>
+                    </div>
+                    <div class="summary-row total-price-row">
+                        <span>До сплати:</span>
+                        <span id="total-price">0 ₴</span>
+                    </div>
+
+                    <form class="checkout-form" id="checkout-form">
+                        <input type="text" placeholder="Ім'я та прізвище" required>
+                        <input type="tel" placeholder="Номер телефону" required>
+                        <input type="text" placeholder="Місто та відділення пошти" required>
+                        <button type="submit" class="cta-btn full-width-btn">підтвердити замовлення</button>
+                    </form>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <h3>modernism.</h3>
+                <p>Ексклюзивний дистриб'ютор та видавець літературної спадщини українського авангарду.</p>
+            </div>
+            <div class="footer-nav">
+                <a href="index.html">на головну</a>
+                <a href="#">умови доставки</a>
+                <a href="#">instagram</a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 modernism. bookstore. Вишукані книги як частина інтелектуального простору.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
